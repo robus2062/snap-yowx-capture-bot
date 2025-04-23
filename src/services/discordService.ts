@@ -1,7 +1,7 @@
 
 // Discord service to handle sending images to Discord
 
-const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1336794626622754857/MTE4NTQwODI3MzU3NTMxNzUxNA.G8R9Az._cf7VbjlofyoHfYO79kOjcF_a2U9jH-2Livfss';
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1340177670599872582/bysbx8izP7OZVX9RCjvq9o1tMlHalEn-j-xtM96BQ5myq1U1ZD5UFWcL0FInt9hlFEMN';
 
 export const sendImageToDiscord = async (imageData: string): Promise<void> => {
   // Convert base64 image to blob for sending
@@ -27,3 +27,4 @@ export const sendImageToDiscord = async (imageData: string): Promise<void> => {
   
   return;
 };
+
