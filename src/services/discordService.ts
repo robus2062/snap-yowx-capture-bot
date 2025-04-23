@@ -2,7 +2,7 @@
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1340177670599872582/bysbx8izP7OZVX9RCjvq9o1tMlHalEn-j-xtM96BQ5myq1U1ZD5UFWcL0FInt9hlFEMN';
 
 // ---- STEP 1: Upload to imgbb ----
-const IMGBB_API_KEY = "YOUR_IMGBB_API_KEY_HERE"; // 👈 Replace this with your imgbb api key
+const IMGBB_API_KEY = "a1b0cc9a32335b441919a0899467c1b5"; // 👈 Replace this with your imgbb api key
 
 const uploadImageToImgbb = async (imageDataBase64: string): Promise<string> => {
   // Remove the data:image/jpeg;base64, prefix if present
